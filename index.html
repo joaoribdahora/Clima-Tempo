@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Clima Tempo</h1>
+    <h5>Digite o nome de uma cidade:</h5>
+    <form class="busca">
+        <input type="search" id="searchInput" />
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                <div class="tempLegenda">--</div>
+            </div>
+            <div class="vento">
+                <div class="feelsLike">
+                    <div class="feelsLikeTitulo">Sensação Térmica</div>
+                    <div class="feelsLikeTemp">-- <sup>ºC</sup></div>
+                </div>
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <footer>Criado por <a href="https://github.com/joaoribdahora" target="_blank">João Victor Ribeiro</a></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
