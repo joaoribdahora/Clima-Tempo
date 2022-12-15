@@ -1,1 +1,2 @@
-Esse projeto te possibilita visualizar o clima e outras informações metereológicas de qualquer cidade do mundo.
+Projeto: Clima Tempo;
+Finalidade: Treinar habilidades em JavaScript, API, HTML e CSS.
